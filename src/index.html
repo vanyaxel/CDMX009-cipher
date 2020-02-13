@@ -2,29 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Randomized</title>
+    <link rel="stylesheet" href="style1.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Randomized</h1>
+    <header>
+      <h1>RANDOMIZED</h1>
+        <div class="titulo"></div>
+    </header>
+
+    <!-- lineas inclinadas en plantalla -->
+    <div id="lineas">
+      <hr>
+      <hr id="linea">
+      <hr>
     </div>
-    <p>Randomized te ayudará a crear contraseñas temporales seguras, las cuales te permiten el acceso a espacios restringidos y llevar el control de hora y espacios utlizados por empleados.</p>
-      <p>
-      <form> 
-        <label for ="Name">Usuario</label>
-        <input type= "text" name="Usuario" placeholder="Escribe aqui tu número de empleado">
-      </form>
-    </p>
-    <p>
-      <form> 
-        <label for ="Contraseña">Contraseña</label>
-        <input type= "password" name="Contraseña" minlength="8">
-      </form>
-    </p>
-    <p>
-      <input type="submit" value="Ingresar">
-    </p>
-    <script src="index.js" type="module"></script>
+
+    <!-- texto de introducción -->
+      <section> 
+
+        <div class="introduccion" id="parafo">
+        <p class="texto1">Randomized te ayudará a crear <strong class="bold"> contraseñas temporales seguras</strong>, las cuales te permiten el acceso a <strong class="bold">espacios restringidos</strong> y llevar el control de hora y espacios utlizados por empleados.</p>
+        </div>
+
+    <!--formulario de ingreso -->
+        <div>
+          <form id="form1">
+            <label for ="Usuario"><strong>USUARIO</strong></label></br>
+            <input id="usuario" class="boton" type= "text" name="Usuario" placeholder="Escribe aqui tu número de empleado">
+          </form>
+        </div>
+
+        <div>
+          <form id="form2">
+           <label for ="Contraseña"><strong>CONTRASEÑA</strong></label></br>
+            <input  id="pssword" class="boton" type= "password" name="Contraseña" minlength="8">
+          </form>
+        </div>
+
+        <div>
+          <form id="ingresar">
+            <a href="menu.html" onclick="myFunction"><input  type="button" value="Ingresar"></a>
+          </form>
+        </div>
+
+      </section>
+
+      <script src="index.js" type="module"></script>
    </body>
 </html>
+
