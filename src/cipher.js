@@ -16,16 +16,6 @@ const cipher = {
 
 }
 }
-
-  decode: function (resultEncode, offset) {
-    let resultDecode = "";
-
-    resultDecode = resultEncode -= newLetter;
-          }
-}
-   return resultDecode;
-        }
-
 export default cipher
 
 
