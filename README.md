@@ -19,7 +19,7 @@ el proyecto consiste en el diseño de una aplicacion que ayude a empresas a tene
 
 ## 2. Imagen final
 
-<img src="prototipo-final.jpg">
+ ![lol](prototipo-final.png)
 
 ## 3. Objetivos de aprendizaje
 
@@ -80,9 +80,9 @@ La elección de colores era muy llamativa, se sugirio cambiar la paleta de color
 
 
 ### Prototipo Final
-<img src ="pantalla1">
-<img src ="pantalla2">
-<img src ="pantalla3">
+![lol](pantalla1.png)
+![lol](pantalla2.png)
+![lol](pantalla3.png)
 
 
 
