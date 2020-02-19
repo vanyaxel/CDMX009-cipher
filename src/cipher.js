@@ -1,39 +1,31 @@
 const cipher = {
   encode: function (word, offset) {
-    let resultEncode = "";
+      let resultEncode = "";
 
-    for (var i = 0; i < word.length; i++) {
-      let wordCipher = word.charCodeAt(i); 
+      for (var i = 0; i < word.length; i++) {
+          let wordCipher = word.charCodeAt(i);
 
-      if (wordCipher >= 65 && wordCipher <= 90) { 
-        let formula = (wordCipher - 65 + offset) % 26 + 65; 
-        let newLetter = String.fromCharCode(formula); 
+          if (wordCipher >= 65 && wordCipher <= 90) {
+              let formula = (wordCipher - 65 + offset) % 26 + 65;
+              let newLetter = String.fromCharCode(formula);
 
-        resultEncode += newLetter;
+              resultEncode += newLetter;
+          }
       }
-    }
-    return resultEncode;
+      return resultEncode;
 
-}
-}
-export default cipher
+  },
 
 
-/* },
+  decode: function (word) {
+      let resultDecode = "";
+      resultDecode = word;
+      console.log(resultDecode)
 
-function decode (resultEncode, offset) {
-  let resultDecode = "";
-
-  for (var i = 0; i <resultEncode; i--) {
-    let wordDecipher = resultEncode.charCodeAt(i); 
-
-    if (wordDecipher >= 65 && wordDecipher <= 90) { 
-      let formulaInv = (wordDecipher - 65 + offset) % 26 - 65; 
-      let decipherLetter = String.fromCharCode(formulaInv); 
-
-      resultDecode -= decipherLetter;
-    }
+      return resultDecode;
   }
-  return resultDecode;
-  
-} */
+}
+
+
+
+export default cipher

@@ -9,8 +9,14 @@ generatedCode.onclick = function(){
 
 }
 
-console.log(cipher);
+generatedDecode.onclick = function(){
+     let word = document.getElementById("phrase").value;
+     let releasedDecode = word;
+    console.log(releasedDecode);
+    document.getElementById("decodeText").innerHTML = (releasedDecode);
+}
 
+console.log(cipher);
 
 
 
