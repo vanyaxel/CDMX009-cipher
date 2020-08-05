@@ -16,7 +16,7 @@ function showHide(section) {
 window.onload = function () {
     showHide("menu");
     showHide("codePage");
-}
+};
 
 /* export function mostrarPagina2() {
     document.getElementById("logIn").style.display = "none";
@@ -35,11 +35,11 @@ function welcome() {
     let name = document.getElementById("user").value;
     bienvenida.innerHTML = `
          <p>Bienvenid@  ${name}</p>
-         `
+         `;
     return bienvenida;
 }
 
-printSpace.appendChild(welcome())
+printSpace.appendChild(welcome());
 
 
 buttonCode.addEventListener("click", function () {
@@ -57,4 +57,4 @@ buttonDecode.addEventListener("click", function () {
     decodeWord.innerHTML = (releasedWord);
 });
 
-submit 
+submit; 

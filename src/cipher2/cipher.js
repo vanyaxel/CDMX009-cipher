@@ -21,7 +21,7 @@ const cipher = {
         }
         return resultEncode;
     },
-    
+
     decode: function (offset, string) {
         let resultDecode = "";
         for (let i = 0; i < string.length; i++) {
@@ -38,12 +38,11 @@ const cipher = {
                 let formula = (wordCipher - 48 - offset) % 26 + 48;
                 let newLetter = String.fromCharCode(formula);
                 resultDecode += newLetter;
-            } 
             }
-        
+        }
         return resultDecode;
     }
-   
-}
+
+};
 
 export default cipher;
