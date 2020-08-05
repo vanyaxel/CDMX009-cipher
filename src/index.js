@@ -6,6 +6,10 @@ let btnMenu = document.querySelectorAll('.btn-menu');
 let returnMenu = document.getElementById('returnMenu');
 let tryAgain = document.getElementById('tryAgain');
 let generatedCode = document.getElementById("generatedCode");
+let string = document.getElementById("phrase");
+let offset = document.getElementById("number");
+let encodeText = document.getElementById("encodeText");
+let decodeText = document.getElementById("decodeText");
 
 function showHide(section) {
     if (document.getElementById) {
@@ -33,6 +37,10 @@ btnMenu.forEach((button) => {
         document.getElementById("homepage").style.display = "none";
         document.getElementById("menu").style.display = "none";
         document.getElementById("code").style.display = "block";
+        string.value = '';
+        offset.value = '';
+        encodeText.innerHTML = '----';
+        decodeText.innerHTML = '----';
     });
 });
 
@@ -42,22 +50,7 @@ returnMenu.addEventListener('click', function () {
     document.getElementById("code").style.display = "none";
 });
 
-/* tryAgain.addEventListener('click', function () {
-    let string = document.getElementById("phrase");
-    let offset = document.getElementById("number");
-    let encodeText = document.getElementById("encodeText");
-    let decodeText = document.getElementById("decodeText");
-    string.innerHTML = 'hola';
-    offset.innerHTML = '';
-    encodeText.innerHTML = '----';
-    decodeText.innerHTML = '----';
-}); */
-
 tryAgain.addEventListener('click', function () {
-    let string = document.getElementById("phrase");
-    let offset = document.getElementById("number");
-    let encodeText = document.getElementById("encodeText");
-    let decodeText = document.getElementById("decodeText");
     string.value = '';
     offset.value = '';
     encodeText.innerHTML = '----';
