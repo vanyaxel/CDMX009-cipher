@@ -6,7 +6,7 @@ El proyecto consiste en el diseño de una aplicacion que ayude a empresas a tene
 
 Puedes ver el proyecto [aqui](https://chipher-xel.netlify.app/)<br>
 
-[![cipher](https://i.gyazo.com/63583556de8fa18e7df336950d61ce61.gif](https://i.gyazo.com/63583556de8fa18e7df336950d61ce61.gif)
+[![cipher](https://i.gyazo.com/63583556de8fa18e7df336950d61ce61.gif)](https://i.gyazo.com/63583556de8fa18e7df336950d61ce61.gif)
 
 ## 3. Objetivos de aprendizaje
 
