@@ -1,25 +1,12 @@
 # Cifrado César (RANDOMIZED)
 
-## Índice
-
-* [1. Resumen de proyecto](#1-resumen de proyecto)
-* [2. Imagen final](#2-imagen final)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Investigación UX](#4-investigación UX)
-* [5. Primer prototipo](#5-primer prototipo)
-* [6. Feedback](#6-feedback)
-* [7. Prototipo Final](#7-prototipo final)
-
-***
-
 ## 1. Resumen de proyecto
 
-el proyecto consiste en el diseño de una aplicacion que ayude a empresas a tener un control sobre espacios con acceso limitado, dando la posibilidad de tener en todo momento información sobre quien entra/sale de estos espacios dando informacion sobre el tiempo estimado que permanecieron y horas exactas de ingreso.
+El proyecto consiste en el diseño de una aplicacion que ayude a empresas a tener un control sobre espacios con acceso limitado, dando la posibilidad de tener en todo momento información sobre quien entra/sale de estos espacios dando informacion sobre el tiempo estimado que permanecieron y horas exactas de ingreso. <br>
 
+Puedes ver el proyecto [aqui](https://chipher-xel.netlify.app/)<br>
 
-## 2. Imagen final
-
- ![lol](prototipo-final.png)
+[![cipher](https://i.gyazo.com/63583556de8fa18e7df336950d61ce61.gif)](https://i.gyazo.com/63583556de8fa18e7df336950d61ce61.gif)
 
 ## 3. Objetivos de aprendizaje
 
@@ -64,25 +51,19 @@ el proyecto consiste en el diseño de una aplicacion que ayude a empresas a tene
 ## 4. Investigación UX
 
 Usuarios
-Los principales usuarios de la aplicacion serán los empleados de empresas y/o organizaciones que cuenten con espacios que requieran algun tipo de control, que manejen equpos o documentacion sensible y que necesiten de tener un listado sobre quien entra y sale de estos espacios, teniendo la informacion al instante y detallada. Por lo que los empleados requeriran generar una contraseña cada vez que necesiten ingresar a estos espacios.
+Los principales usuarios de la aplicación serán los empleados de empresas y/o organizaciones que cuenten con espacios que requieran algun tipo de control, que manejen equipos o documentación sensible y que necesiten de tener un listado sobre quien entra y sale de estos espacios, teniendo la información al instante y detallada. Por lo que los empleados requerirán generar una contraseña cada vez que necesiten ingresar a estos espacios.
 
-Solucion de problemas
+Solución de problemas
 Los empelados tendran que crear una clave siempre que necesiten ingresar a los espacios, y se almacenara en una base de datos que se puede ver al instante y posteriormente si se requiere. Se contara con los datos del empleado que permitiran identificar quien ingreso a los espacios.
 
 
 ### Feedback
 
-Se hizo varias rondas de feedback, para obtener criticas que permitieran mejorar la aplicacin, alguno de los comentarios resividos fueron los siguientes:
+Se hizo varias rondas de feedback, para obtener críticas que permitieran mejorar la aplicación, algunos de los comentarios recibidos fueron los siguientes:
 
-El flujo de interaccino en la aplicacion no era muy sencilla ya que tenia demasiadas pantallas.
-En un principiio no era muy entendible la dinamica para usar la aplicación.
+El flujo de interacción en la aplicación no era muy sencilla ya que tenia demasiadas pantallas.
+En un principio no era muy entendible la dinámica para usar la aplicación.
 La elección de colores era muy llamativa, se sugirio cambiar la paleta de colores.
-
-
-### Prototipo Final
-![lol](pantalla1.png)
-![lol](pantalla2.png)
-![lol](pantalla3.png)
 
 
 
